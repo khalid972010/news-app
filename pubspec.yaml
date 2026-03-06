@@ -1,0 +1,24 @@
+name: news_app
+description: "A production-quality Flutter news app."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.0.0
+  dio: ^5.8.0
+  shared_preferences: ^2.5.2
+  cached_network_image: ^3.4.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
